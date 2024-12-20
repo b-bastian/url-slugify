@@ -1,10 +1,10 @@
 <?php
 
-use Bbrugger\MyTest\MyURL;
+use Bastian\UrlSlugify\myURL;
 
 require_once "vendor/autoload.php";
 
-$url = new MyURL();
+$url = new myURL();
 echo $url->slugify("https://www.example.org", "Das ist ein langer Text!");
 ?>
 
