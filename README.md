@@ -1,3 +1,6 @@
+# url-slugify
+
+```php
 <?php
 
 use Bastian\UrlSlugify\myURL;
@@ -14,10 +17,11 @@ echo $url->slugify("https://www.example.org", "Das ist ein langer Text!");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URL - Slugify</title>
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
 </body>
 </html>
+```
