@@ -1,0 +1,19 @@
+{
+  "name": "bastian/url-slugify",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Bastian\\UrlSlugify\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "b-bastian",
+      "email": "bbrugger@schueler.hakzell.at"
+    }
+  ],
+  "require": {
+    "cocur/slugify": "~v4.4"
+  }
+}
